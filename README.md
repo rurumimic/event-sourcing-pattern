@@ -76,4 +76,16 @@ Microsoft Docs: [Event Sourcing Pattern](https://docs.microsoft.com/ko-kr/azure/
 
 ### 이슈와 고려 사항
 
-...
+참고: [데이터 일관성에 대해서](https://docs.microsoft.com/en-us/previous-versions/msp-n-p/dn589800(v=pandp.10)?redirectedfrom=MSDN)
+
+- 시스템 일치 시점:
+  1. 구체화된 뷰를 만들었을 때
+  1. 데이터 프로젝션을 생성했을 때
+- 요청을 처리하는 사이에 새 이벤트가 추가될 수도 있다.
+- 이벤트 데이터는 업데이트 하지 않는다.
+  - 업데이트 대신 변경을 위한 이벤트를 추가해야한다.
+- 마이그레이션 과정 중에 지속형 이벤트 형식(format of the persisted events) 변경이 필요할 때, 이미 존재하는 이벤트를 새 버전 형식에 맞추기 어려울 것이다.
+  - 모든 이벤트를 순차적으로 변경하거나, 새로운 형식을 사용하는 새 이벤트를 추가해야 한다.
+  - 각 버전마다 버전 스탬프를 사용해서 이전과 새로운 이벤트 형식을 유지 관리하는 것이 좋다.
+
+
