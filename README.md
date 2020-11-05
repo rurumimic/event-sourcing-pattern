@@ -69,6 +69,32 @@
   - 이벤트 소싱 원리 - 개요, 데이터 영속, 메시징, CQRS(Command and Query Responsibility Segregation)
   - 이벤트 소싱 구현 - 메시지 중심 작업 절차, 프레임워크, 응용프로그램 데모, 아키텍팅 및 구현 사례 소개
 
-## Gopherfest 2017: Event Sourcing – Architectures and Patterns (Matt Ho)
+### Gopherfest 2017: Event Sourcing – Architectures and Patterns (Matt Ho)
 
 [https://youtu.be/B-reKkB8L5Q](https://youtu.be/B-reKkB8L5Q)
+
+### Design Patterns: Why Event Sourcing? 
+
+[https://youtu.be/rUDN40rdly8](https://youtu.be/rUDN40rdly8)
+
+### 7. How to build an Event Store - Event Sourcing, Distributed Systems & CQRS
+
+[https://youtu.be/bsq-7UViekk](https://youtu.be/bsq-7UViekk)
+
+### GOTO 2017 • The Many Meanings of Event-Driven Architecture • Martin Fowler
+
+[https://youtu.be/STKCRSUsyP0](https://youtu.be/STKCRSUsyP0)
+
+### Event Sourcing You are doing it wrong by David Schmitz
+
+[https://youtu.be/GzrZworHpIk](https://youtu.be/GzrZworHpIk)
+
+### GOTO 2014 • Event Sourcing • Greg Young
+
+[https://youtu.be/8JKjvY4etTY](https://youtu.be/8JKjvY4etTY)
+
+### Building Event-Driven Microservices with Event Sourcing and CQRS - Lidan Hifi
+
+[https://youtu.be/XWTrcBqXi6s](https://youtu.be/XWTrcBqXi6s)
+
+
